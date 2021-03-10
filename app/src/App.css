@@ -36,4 +36,8 @@ nav ul li {
     flex-direction: column;
   }
 
+  #logo {
+    width: 85%;
+  }
+
 }
