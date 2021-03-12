@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: gray;
-  height: 100vh;
+  background-color: rgb(61, 61, 61);
+  min-height: 100vh;
 }
 
 .header {
@@ -30,6 +30,15 @@ nav ul li {
   border-radius: 10px;
   background-color: #dcdac2;
   margin: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0e2a4a;
+}
+
+h2 {
+  color: white;
 }
 
 @media (max-width: 500px) {
