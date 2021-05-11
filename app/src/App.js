@@ -8,7 +8,7 @@ import {Link, Route} from 'react-router-dom'
 import About from './Components/About'
 import OurCars from './Components/OurCars'
 import Contact from './Components/Contact'
-import Login from './Components/Login'
+import Dashboard from './Components/Dashboard'
 
 function App() {
   return (
@@ -42,8 +42,8 @@ function App() {
         <Contact />
       </Route>
 
-      <Route path="/admin">
-        <Login />
+      <Route path="/admin1234">
+        <Dashboard />
       </Route>
 
     </div>
