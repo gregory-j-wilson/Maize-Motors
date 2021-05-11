@@ -74,6 +74,7 @@ a {
 .location-phone {
   display: flex;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 500px) {
