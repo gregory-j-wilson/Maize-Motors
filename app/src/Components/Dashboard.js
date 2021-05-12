@@ -45,11 +45,11 @@ export default function Dashboard() {
     const postCar = (e) => {
         e.preventDefault();
         axios
-            .post("https://maize-motors-data.herokuapp.com/cars", newCar)
+            .post("https://maize-motors-data.herokuapp.com/cars/", newCar)
             .then((res) => {
                 console.log(res)
             })
-            .catch((err) => console.log(err));
+            .catch((err) => console.log(err.response.data));
 
             setNewCar({
                 year: '',
@@ -102,7 +102,7 @@ export default function Dashboard() {
                     required
                     id="mileage"
                     name="mileage"
-                    type="text"
+                    type="number"
                     placeholder="Mileage"
                     value={newCar.mileage}
                     onChange={handleChange}
