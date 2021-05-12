@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <header className="header">
         <img style={{paddingBottom: 50 + 'px'}} src={logo} id="logo" alt="Maize Motors Logo"></img>
-        <div class="location-phone"><img width="70" src={location} alt="location-icon"></img>5203 N Maize Rd, Maize, KS 67101</div>
         <div class="location-phone"><img width="50" src={phone} alt="phone-icon"></img><a href="tel:3163644196"><strong>(316) 364-4196</strong></a></div>
         <img src={car} alt="red car" width="300"></img>
+        <div class="location-phone"><img width="70" src={location} alt="location-icon"></img><div>5203 N Maize Rd, Maize, KS 67101</div></div>
         <nav>
           <ul>
             <li><Link to="/" className="link">Home</Link></li>

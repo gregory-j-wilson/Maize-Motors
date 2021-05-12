@@ -23,7 +23,7 @@ export default function OurCars() {
                 return (
                 <div id="car">
                 <h3>{car.year} {car.make} {car.model}</h3>
-                <p>{car.mileage}</p>
+                <p>{car.mileage} miles</p>
                 <p>{car.condition}</p>
                 </div>
                 )
